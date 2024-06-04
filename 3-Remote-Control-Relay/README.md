@@ -1,10 +1,10 @@
-# 1-Remote-Control-LED
+# 3-Remote-Control-Relay
 
-远程控制 LED
+远程控制继电器
 
 ## 接线图
 
-![remote-control-led](./doc/Remote-Control-LED.jpg)
+![Remote-Control-Relay](./doc/Remote-Control-Relay.jpg)
 
 ## 代码
 

@@ -1,10 +1,10 @@
-# 1-Remote-Control-LED
+# 2-Remote-Control-RGB
 
-远程控制 LED
+远程控制 RGB彩灯
 
 ## 接线图
 
-![remote-control-led](./doc/Remote-Control-LED.jpg)
+![Remote-Control-RGB](./doc/Remote-Control-RGB.jpg)
 
 ## 代码
 
