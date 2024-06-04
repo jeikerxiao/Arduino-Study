@@ -4,12 +4,11 @@
 
 ## 接线图
 
-![remote-control-led](./doc/remote-control-led.jpg)
+![remote-control-led](./doc/Remote-Control-LED.jpg)
 
 ## 代码
 
 ```c
-
 //定义引脚
 int RED_LED_Pin = 11;    //红色LED
 int GREEN_LED_Pin = 10;  //绿色LED
@@ -24,8 +23,6 @@ String returntemp = "";  //存储返回值
 
 /**
 * Function       setup
-* @author        jeikerxiao
-* @date          2024.06.03
 * @brief         初始化配置
 */
 
@@ -44,8 +41,6 @@ void setup() {
 
 /**
 * Function       loop
-* @author        jeikerxiao
-* @date          2024.06.03
 * @brief         按照接收的数据根据协议完成相应的功能 
 */
 void loop() {
@@ -114,9 +109,7 @@ void loop() {
 }
 /**
 * Function       serialEvent
-* @author        jeikerxiao
-* @date          2024.06.03
-* @brief         串口接收中断   serialEvent()是IDE1.0及以后版本新增的功能，不清楚为什么大部份人不愿意用，这个可是相当于中断功能一样的啊! 
+* @brief         串口接收中断 
 */
 void serialEvent() {
   while (Serial.available())  //如果串口接收到数据则进入循环
@@ -136,4 +129,5 @@ void serialEvent() {
     }
   }
 }
+
 ```

@@ -1,11 +1,12 @@
 /**
-* @file         1-远程控制LED
-* @author        jeikerxiao
-* @date          2024.06.03
+* @par Copyright (C): 2024-2024, company
+* @file         1、远程控制LED
+* @author       jeiker
+* @version      V1.0
+* @date         2024.06.04
 * @brief        AR物联网套件
 * @details
 * @par History  见如下说明
-*
 */
 //定义引脚
 int RED_LED_Pin = 11;    //红色LED
@@ -21,8 +22,8 @@ String returntemp = "";  //存储返回值
 
 /**
 * Function       setup
-* @author        jeikerxiao
-* @date          2024.06.03
+* @author        jeiker
+* @date          2024.06.04
 * @brief         初始化配置
 * @param[in]     void
 * @retval        void
@@ -44,8 +45,8 @@ void setup() {
 
 /**
 * Function       loop
-* @author        jeikerxiao
-* @date          2024.06.03
+* @author        jeiker
+* @date          2024.06.04
 * @brief         按照接收的数据根据协议完成相应的功能 
 * @param[in]     void
 * @retval        void
@@ -117,9 +118,9 @@ void loop() {
 }
 /**
 * Function       serialEvent
-* @author        jeikerxiao
-* @date          2024.06.03
-* @brief         串口接收中断   serialEvent()是IDE1.0及以后版本新增的功能，不清楚为什么大部份人不愿意用，这个可是相当于中断功能一样的啊! 
+* @author        jeiker
+* @date          2024.06.04
+* @brief         串口接收中断   
 * @param[in]     void
 * @retval        void
 * @par History   无
