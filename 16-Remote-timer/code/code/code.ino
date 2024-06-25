@@ -41,11 +41,11 @@ const uint8_t SPEAKER_Pin= 8;
 Time clock;
 
 /*串口协议相关*/
-int incomingByte = 0;       // 接收到的 data byte
+int incomingByte = 0;            // 接收到的 data byte
 String inputString = "";         // 用来储存接收到的内容
 boolean newLineReceived = false; // 前一次数据结束标志
-boolean startBit  = false;  //协议开始标志
-String returntemp = ""; //存储返回值 
+boolean startBit  = false;       // 协议开始标志
+String returntemp = "";          // 存储返回值 
 /*********************************************************************************
 * Function       display_time
 * @author        jeiker
